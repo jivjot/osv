@@ -194,6 +194,7 @@ def start_osv_qemu(options):
 
         qemu_env['OSV_BRIDGE'] = options.bridge
         cmdline = [options.qemu_path] + args
+        print(' '.join(cmdline))
         if options.dry_run:
             print(format_args(cmdline))
         else:

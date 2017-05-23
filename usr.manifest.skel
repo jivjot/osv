@@ -17,3 +17,6 @@
 /dev: ../../static
 /proc: ../../static
 /tmp: ../../static
+/**: /home/jivjot/git/886/apache-spark/ROOTFS/spark/**
+/usr/mgmt/cloud-init.yaml: /home/jivjot/git/886/apache-spark/cloud-init.yaml
+/init/00-cmdline: /home/jivjot/git/886/apache-spark/00-cmdline

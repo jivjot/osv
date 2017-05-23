@@ -1,3 +1,9 @@
-#open httpserver for input
 run:
-    - GET: /os/version
+    - POST: /env/my_var
+      val: myval
+    - POST: /env/SPARK_SCALA_VERSION
+      val: 2.10
+    - POST: /env/RUNNER
+      val: /spark/java.so
+    - POST: /env/IS_UNI_KERNEL
+      val: YES
